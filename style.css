@@ -1,0 +1,593 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+font-family: "Roboto", sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+.main-parent{
+    height: 150%;
+    width: 100%;
+    background-color: aquamarine;
+    position: relative;
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/8728e059-7686-4d2d-a67a-84872bd71025/e90516bd-6925-4341-a6cf-0b9f3d0c140a/IN-en-20240708-POP_SIGNUP_TWO_WEEKS-perspective_WEB_34324b52-d094-482b-8c2a-708dc64c9065_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: fixed; */
+
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #0000006f;
+
+}
+.logo-div{
+    height: 25%;
+    width: 20%;
+    /* background-color: aliceblue; */
+    position: relative;
+    margin: 0px 0px 0px 80px;
+    padding: 30px 0px 0px 20px;
+}
+.logo-div > img{
+    height: 180px;
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+
+}
+.main-button-div{
+    height: 15%;
+    width: 30%;
+    /* background-color: aliceblue; */
+    position: absolute;
+    right: 0%;
+    top: 10%;
+    padding: 20px 0px 0px 0px;
+    
+}
+.button-one{
+    height: 32px;
+    width: 140px;
+    font-size: 16px;
+    margin: 0px 20px 0px 0px;
+    font-weight: 500;
+    /* background-color: transparent; */
+    background-color: #151313;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+}
+.button-two{
+    height: 32px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 500;
+    /* border: 1px solid #ffffff; */
+    border: none;
+    border-radius: 2px;
+    background-color: #E50914;
+    color: #ffffff;
+    
+}
+.welcome-back-div{
+    height: 5%;
+    width: 18%;
+    /* background-color: #713232; */
+    font-weight: 100;
+    font-size: 30px;
+    color: #ffffff;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.Unlimited-movies-div{
+    height: 10%;
+    width: 67%;
+    /* background-color: #713232; */
+    font-weight: 100;
+    font-size: 25px;
+    color: #ffffff;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.anytime-anywhere{
+    height: 5%;
+    width: 27%;
+    /* background-color: #713232; */
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.finish-up-button{
+    height: 7%;
+    width: 15%;
+    /* background-color: #713232;  */
+    color: #ffffff;
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.finish-up-button > button{
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 550;
+    border: none;
+    border-radius: 5px;
+    background-color: #E50914;
+    color: #ffffff;
+
+}
+.enjoy-your-div{
+    height: 90%;
+    width: 100%;
+    background-color: #000000;
+    margin: 12px 0px 0px 0px;
+    position: relative;
+}
+.enjoy-on-your{
+    height: 15%;
+    width: 40%;
+    /* background-color: #ffffff; */
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    font-size: 32px;
+    font-weight: 900;
+    color: #ffffff;
+
+}
+.enjoy-on-your > h1{
+    font-weight: 900;
+
+}
+.Watch-on-para{
+    height: 18%;
+    width: 35%;
+    /* background-color: #ffffff; */
+    position: absolute;
+    top: 47%;
+    left: 5%;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #ffffff;
+
+}
+.video-enjoy-div{
+    height: 51%;
+    width: 38%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+
+.down-your-div{
+    height: 90%;
+    width: 100%;
+    background-color: #000000;
+    margin: 12px 0px 0px 0px;
+    position: relative;
+}
+.downlode-head-your{
+    height: 35%;
+    width: 30%;
+    /* background-color: #ffffff; */
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    font-size: 22px;
+    font-weight: 900;
+    color: #ffffff;
+
+}
+.downlode-head-your > h1{
+    font-weight: 900;
+
+}
+.down-your-para{
+    height: 18%;
+    width: 30%;
+    /* background-color: #ffffff; */
+    position: absolute;
+    top: 56%;
+    right: 10%;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #ffffff;
+
+}
+.image-enjoy-div{
+    height: 51%;
+    width: 38%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #ffffff;
+}
+.image-enjoy-div > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+
+}
+
+
+
+
+.watch-every-div{
+    height: 90%;
+    width: 100%;
+    background-color: #000000;
+    margin: 12px 0px 0px 0px;
+    position: relative;
+}
+.watch-every-head{
+    height: 35%;
+    width: 30%;
+    /* background-color: #ffffff; */
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 22px;
+    font-weight: 900;
+    color: #ffffff;
+
+}
+.watch-every-head > h1{
+    font-weight: 900;
+
+}
+.down-every-para{
+    height: 18%;
+    width: 30%;
+    /* background-color: #b5b5b5; */
+    position: absolute;
+    top: 42%;
+    left: 10%;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #ffffff;
+
+}
+.image-every-div{
+    height: 71%;
+    width: 38%;
+    /* background-color: #ffffff; */
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #ffffff;
+}
+.image-every-div > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+
+.create-profilekids-div{
+    height: 90%;
+    width: 100%;
+    background-color: #000000;
+    margin: 12px 0px 0px 0px;
+    position: relative;
+}
+.kids-your{
+    height: 35%;
+    width: 30%;
+    /* background-color: #ffffff; */
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    font-size: 22px;
+    font-weight: 900;
+    color: #ffffff;
+
+}
+.kids-your > h1{
+    font-weight: 900;
+
+}
+.kids-para{
+    height: 18%;
+    width: 30%;
+    /* background-color: #ffffff; */
+    position: absolute;
+    top: 46%;
+    right: 10%;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #ffffff;
+
+}
+.image-kids-div{
+    height: 71%;
+    width: 38%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #ffffff;
+}
+.image-kids-div > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+
+}
+.question-div{
+    height: 140%;
+    width: 100%;
+    background-color: #000000;
+    margin-top: 10px;
+    position: relative;
+}
+.question-div > h1{
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+    color: #ffffff;
+}
+.question-main{
+    height: 80%;
+    width: 60%;
+    /* background-color: #cdaaac; */
+    position: relative;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* padding: 10px 0px 0px 0px; */
+    
+
+}
+.que-one{
+    height: 12%;
+    width: 100%;
+    /* background-color: #ffffff; */
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 200;
+    padding: 20px;
+    background-color: #2D2D2D;
+    color: #ffffff;
+}
+.que-two{
+    height: 12%;
+    width: 100%;
+    /* background-color: #ffffff; */
+    margin-top: 10px;
+    padding: 20px;
+    font-weight: 200;
+    font-size: 15px;
+    background-color: #2D2D2D;
+    color: #ffffff;
+}
+.que-three{
+    height: 12%;
+    width: 100%;
+    /* background-color: #ffffff; */
+    margin-top: 10px;
+    padding: 20px;
+    font-weight: 200;
+    font-size: 15px;
+    background-color: #2D2D2D;
+    color: #ffffff;
+}
+.que-four{
+    height: 12%;
+    width: 100%;
+    /* background-color: #ffffff; */
+    margin-top: 10px;
+    padding: 20px;
+    font-weight: 200;
+    font-size: 15px;
+    background-color: #2D2D2D;
+    color: #ffffff;
+}
+.que-five{
+    height: 12%;
+    width: 100%;
+    /* background-color: #ffffff; */
+    margin-top: 10px;
+    padding: 20px;
+    font-weight: 200;
+    font-size: 15px;
+    background-color: #2D2D2D;
+    color: #ffffff;
+}
+.que-six{
+    height: 12%;
+    width: 100%;
+    
+    margin-top: 10px;
+    padding: 20px;
+    font-weight: 200;
+    font-size: 15px;
+    background-color: #2D2D2D;
+    color: #ffffff;
+}
+.question-div > button{
+    height: 10%;
+    width: 20%;
+    font-size: 30px;
+    font-weight: 550;
+    border: none;
+    border-radius: 5px;
+    background-color: #E50914;
+    color: #ffffff;
+    margin: 530px 0px 0px 500px;
+
+}
+.footer-div{
+    height: 75%;
+    width: 100%;
+    background-color:#000000;
+    margin-top: 10px;
+    display: flex;
+    padding-top: 100px;
+    position: relative;
+
+}
+.questioncall-div{
+    height: 20px;
+    width: 300px;
+    /* background-color: #fff; */
+    position: absolute;
+    top: 10%;
+    left: 150px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.questioncall-div > p > a{
+    color: #ffffff;
+}
+.div1{
+    height: 40%;
+    width: 10%;
+    margin: 20px 0px 0px 150px;
+  
+    
+
+}
+.div1 > a{
+    color: #ffffff;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+   
+   
+  
+    
+
+}
+.div2{
+    height: 42%;
+    width: 12%;
+    margin: 20px 0px 0px 120px;
+  
+    
+
+}
+.div2 > a{
+    color: #ffffff;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+   
+   
+  
+    
+
+}
+.div3{
+    height: 40%;
+    width: 12%;
+    margin: 20px 0px 0px 120px;
+  
+    
+
+}
+.div3 > a{
+    color: #ffffff;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+   
+   
+  
+    
+
+}
+
+
+.div4{
+    height: 40%;
+    width: 10%;
+    margin: 20px 0px 0px 120px;
+  
+    
+
+}
+
+.div4 > a{
+    color: #ffffff;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+   
+   
+  
+    
+
+}
+.btn-two{
+    height: 32px;
+    width: 140px;
+    font-size: 16px;
+    /* margin: 250px 200px 0px 0px; */
+    font-weight: 500;
+    /* background-color: transparent; */
+    background-color: #151313;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    position: absolute;
+    top: 70%;
+    left: 150px;
+
+}
+#pare-net-ind{
+    position: absolute;
+    top: 82%;
+    left: 150px;
+    color: #ffffff;
+    font-weight: 400;
+
+}
